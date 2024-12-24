@@ -55,11 +55,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE   &kp F1           &kp F2           &kp F3           &kp F4           &kp F5           &mmv MOVE_UP     &kp F6     &kp F7     &kp F8    &kp F9   &kp MINUS         &kp EQUAL
-&trans      &trans           &trans           &trans           &trans           &trans           &mmv MOVE_DOWN   &trans  &trans     &trans    &trans   &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp CAPS    &trans           &trans           &trans           &trans           &trans           &mmv MOVE_LEFT   &kp PG_UP    &trans     &trans    &trans   &trans            &APOS
+&kp GRAVE   &kp F1           &kp F2           &kp F3           &kp F4           &kp F5           &mmv MOVE_UP     &kp F6       &kp F7      &kp F8    &kp F9   &kp MINUS         &kp EQUAL
+&trans      &trans           &trans           &trans           &trans           &trans           &mmv MOVE_DOWN   &trans       &trans     &trans    &trans   &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp CAPS    &trans           &trans           &trans           &trans           &trans           &mmv MOVE_LEFT   &kp PG_UP    &trans     &trans    &trans   &trans            &kp APOS
 &trans      &rgb_ug RGB_TOG  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &mmv MOVE_RIGHT  &kp PG_DN    &trans     &kp F10   &kp F11  &kp F12           &trans
-&kp C_MUTE  &trans           &trans           &trans           &trans           &trans           &mkp RCLK        &mkp LCLK  &trans     &trans    &trans   &trans
+&kp C_MUTE  &trans           &trans           &trans           &trans           &trans           &mkp RCLK        &mkp LCLK    &trans     &trans    &trans   &trans
             >;
             display-name = "layer1";
             sensor-bindings = <&scroll_encoder>;
