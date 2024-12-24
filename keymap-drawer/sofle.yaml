@@ -104,7 +104,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&APOS'
+  - .
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB TOG
   - RGB BRI
